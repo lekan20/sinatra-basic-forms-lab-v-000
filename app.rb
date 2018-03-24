@@ -10,7 +10,7 @@ class App < Sinatra::Base
   end
 
   post '/' do
-    binding.pry
+    puts params
 
     erb :display_puppy
   end
