@@ -6,7 +6,7 @@ class App < Sinatra::Base
   end
 
   get '/new' do
-    binding.pry
+    # binding.pry
     erb :create_puppy
   end
 
